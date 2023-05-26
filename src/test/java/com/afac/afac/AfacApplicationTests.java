@@ -16,10 +16,10 @@ import java.lang.annotation.Target;
 //@Target(ElementType.TYPE)
 //@Retention(RetentionPolicy.RUNTIME)
 
-@ExtendWith(SpringExtension.class)
+//@ExtendWith(SpringExtension.class)
 @SpringBootTest
-@TestPropertySource(locations = "classpath:test.properties")
-@ActiveProfiles("dev")
+//@TestPropertySource(locations = "classpath:test.properties")
+//@ActiveProfiles("dev")
 class AfacApplicationTests {
 
 	@Test
